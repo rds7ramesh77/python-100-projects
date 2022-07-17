@@ -24,3 +24,10 @@ plt.show()
 sns.kdeplot(data['x'],shade=True)
 sns.kdeplot(data['y'],shade=True)
 plt.show()
+
+
+#Program to visualize both histogram and density plots at once
+
+sns.distplot(data['x'])
+sns.distplot(data['y'])
+plt.show()
