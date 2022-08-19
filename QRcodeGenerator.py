@@ -7,4 +7,4 @@ from pyqrcode import QRCode
 s="https://www.sapkotaramesh.com.np"
 
 url=pyqrcode.create(s)
-url.svg("mywebsite.svg",scale=10)
+url.svg("mywebsite.svg",scale=10) 
