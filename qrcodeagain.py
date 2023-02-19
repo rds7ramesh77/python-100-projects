@@ -13,4 +13,4 @@ def generate_qr_code(text):
     img.save("qr_code.png")
 
 # Generate a QR code for the text "Hello, World!"
-generate_qr_code("Hello, World!")
+generate_qr_code("Ramesh Sapkota")
